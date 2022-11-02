@@ -1,0 +1,9 @@
+name: web
+replicaCount: 2
+image:
+  repository: augustkang
+  pullPolicy: Never
+  tag: "latest"
+service:
+  type: LoadBalancer
+  port: 3000
